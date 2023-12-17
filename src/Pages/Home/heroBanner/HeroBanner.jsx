@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import "./Style.scss";
+import "./style.scss";
 
 import useFetch from "../../../hooks/useFetch";
 
